@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Insuficiência cardíaca: causas, sinais e tratamento",
-      "category_hint": "Coração e Circulação",
-      "status": "pending"
-    },
-    {
       "theme": "Trombose venosa profunda: sinais, fatores de risco e prevenção",
       "category_hint": "Coração e Circulação",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Arritmia cardíaca: tipos, sintomas e quando se preocupar",
       "slug": "arritmia-cardiaca-tipos-sintomas-e-quando-se-preocupar",
       "date": "2026-07-29"
+    },
+    {
+      "theme": "Insuficiência cardíaca: causas, sinais e tratamento",
+      "slug": "insuficiencia-cardiaca-causas-sinais-e-tratamento",
+      "date": "2026-07-30"
     }
   ]
 }
