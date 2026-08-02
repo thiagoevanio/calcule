@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Varizes: causas, tratamentos e prevenção",
-      "category_hint": "Coração e Circulação",
-      "status": "pending"
-    },
-    {
       "theme": "Sono profundo: fases do sono, importância e como melhorar a qualidade",
       "category_hint": "Mente e Sono",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Aterosclerose: como as placas se formam e como preveni-las",
       "slug": "aterosclerose-formacao-de-placas-e-prevencao",
       "date": "2026-08-01"
+    },
+    {
+      "theme": "Varizes: causas, tratamentos e prevenção",
+      "slug": "varizes-causas-tratamentos-e-prevencao-completa",
+      "date": "2026-08-02"
     }
   ]
 }
