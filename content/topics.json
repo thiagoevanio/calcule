@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Vitamina C: funções, dose ideal e mitos sobre imunidade",
-      "category_hint": "Nutrição Clínica",
-      "status": "pending"
-    },
-    {
       "theme": "Ferro: alimentos, absorção e quando suplementar",
       "category_hint": "Nutrição Clínica",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Imunidade: como fortalecer de forma real (sem promessas milagrosas)",
       "slug": "imunidade-como-fortalecer-de-forma-real-e-cientifica",
       "date": "2026-08-08"
+    },
+    {
+      "theme": "Vitamina C: funções, dose ideal e mitos sobre imunidade",
+      "slug": "vitamina-c-funcoes-dose-e-mitos-da-imunidade",
+      "date": "2026-08-09"
     }
   ]
 }
