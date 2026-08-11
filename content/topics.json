@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Zinco: funções, sinais de deficiência e suplementação",
-      "category_hint": "Nutrição Clínica",
-      "status": "pending"
-    },
-    {
       "theme": "Cálcio: necessidades diárias, fontes e absorção",
       "category_hint": "Nutrição Clínica",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Ferro: alimentos, absorção e quando suplementar",
       "slug": "ferro-alimentos-absorcao-e-suplementacao-essencial",
       "date": "2026-08-10"
+    },
+    {
+      "theme": "Zinco: funções, sinais de deficiência e suplementação",
+      "slug": "zinco-funcoes-essenciais-deficiencia-e-suplementacao",
+      "date": "2026-08-11"
     }
   ]
 }
