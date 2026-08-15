@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Intolerância à lactose: sintomas, testes e alternativas",
-      "category_hint": "Nutrição Clínica",
-      "status": "pending"
-    },
-    {
       "theme": "Açúcar: efeitos no corpo e como reduzir o consumo",
       "category_hint": "Nutrição Clínica",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Glúten: doença celíaca, sensibilidade e quem precisa evitar",
       "slug": "gluten-doenca-celiaca-sensibilidade-e-quem-evitar",
       "date": "2026-08-14"
+    },
+    {
+      "theme": "Intolerância à lactose: sintomas, testes e alternativas",
+      "slug": "intolerancia-a-lactose-sintomas-testes-e-alternativas",
+      "date": "2026-08-15"
     }
   ]
 }
