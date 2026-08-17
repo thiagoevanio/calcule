@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Adoçantes: são seguros? o que dizem as evidências",
-      "category_hint": "Nutrição Clínica",
-      "status": "pending"
-    },
-    {
       "theme": "Índice glicêmico e carga glicêmica: como usar na prática",
       "category_hint": "Metabolismo",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Açúcar: efeitos no corpo e como reduzir o consumo",
       "slug": "acucar-efeitos-no-corpo-e-estrategias-para-reduzir-o-consu",
       "date": "2026-08-16"
+    },
+    {
+      "theme": "Adoçantes: são seguros? o que dizem as evidências",
+      "slug": "adocantes-seguranca-e-evidencias-cientificas",
+      "date": "2026-08-17"
     }
   ]
 }
