@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Metabolismo lento: mito ou verdade? o que a ciência diz",
-      "category_hint": "Metabolismo",
-      "status": "pending"
-    },
-    {
       "theme": "Diabetes tipo 1: diferenças, sintomas e tratamento",
       "category_hint": "Endocrinologia",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Dieta cetogênica (keto): como funciona, benefícios e riscos",
       "slug": "dieta-cetogenica-keto-como-funciona-beneficios-e-riscos",
       "date": "2026-08-19"
+    },
+    {
+      "theme": "Metabolismo lento: mito ou verdade? o que a ciência diz",
+      "slug": "metabolismo-lento-mito-ou-verdade-a-ciencia-responde",
+      "date": "2026-08-20"
     }
   ]
 }
