@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Recuperação muscular: papel do sono, nutrição e descanso",
-      "category_hint": "Corpo e Movimento",
-      "status": "pending"
-    },
-    {
       "theme": "Alongamento e mobilidade: benefícios e como praticar com segurança",
       "category_hint": "Corpo e Movimento",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Caminhada: benefícios para a saúde e quantos passos por dia",
       "slug": "caminhada-beneficios-para-a-saude-e-quantos-passos-diarios",
       "date": "2026-08-27"
+    },
+    {
+      "theme": "Recuperação muscular: papel do sono, nutrição e descanso",
+      "slug": "recuperacao-muscular-sono-nutricao-e-descanso",
+      "date": "2026-08-28"
     }
   ]
 }
