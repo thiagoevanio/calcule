@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Postura: impactos na saúde e como corrigir no dia a dia",
-      "category_hint": "Corpo e Movimento",
-      "status": "pending"
-    },
-    {
       "theme": "Tendinite: causas, sintomas e recuperação",
       "category_hint": "Corpo e Movimento",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Alongamento e mobilidade: benefícios e como praticar com segurança",
       "slug": "alongamento-e-mobilidade-beneficios-e-pratica-segura",
       "date": "2026-08-29"
+    },
+    {
+      "theme": "Postura: impactos na saúde e como corrigir no dia a dia",
+      "slug": "postura-impactos-na-saude-e-como-corrigir-no-dia-a-dia",
+      "date": "2026-08-30"
     }
   ]
 }
