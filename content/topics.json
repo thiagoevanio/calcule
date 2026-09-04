@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Cálculo biliar (pedra na vesícula): sintomas e tratamento",
-      "category_hint": "Saúde Geral",
-      "status": "pending"
-    },
-    {
       "theme": "Constipação intestinal: causas e como tratar",
       "category_hint": "Saúde Geral",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Infecção urinária: causas, sintomas e prevenção",
       "slug": "infeccao-urinaria-causas-sintomas-e-prevencao",
       "date": "2026-09-03"
+    },
+    {
+      "theme": "Cálculo biliar (pedra na vesícula): sintomas e tratamento",
+      "slug": "calculo-biliar-sintomas-diagnostico-e-tratamento",
+      "date": "2026-09-04"
     }
   ]
 }
