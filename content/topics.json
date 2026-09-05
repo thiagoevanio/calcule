@@ -2,11 +2,6 @@
   "_comment": "Fila de temas do robô de artigos. O robô pega o primeiro item com status 'pending', publica e move para 'published'. Se a fila acabar, ele pede um tema inédito à IA. 'category_hint' é opcional (ajuda a IA e a categorização do card). Temas escolhidos por alto volume de busca / tendências (2026), sem duplicar artigos já existentes.",
   "queue": [
     {
-      "theme": "Constipação intestinal: causas e como tratar",
-      "category_hint": "Saúde Geral",
-      "status": "pending"
-    },
-    {
       "theme": "Hemorroidas: causas, sintomas, graus e tratamento",
       "category_hint": "Saúde Geral",
       "status": "pending"
@@ -507,6 +502,11 @@
       "theme": "Cálculo biliar (pedra na vesícula): sintomas e tratamento",
       "slug": "calculo-biliar-sintomas-diagnostico-e-tratamento",
       "date": "2026-09-04"
+    },
+    {
+      "theme": "Constipação intestinal: causas e como tratar",
+      "slug": "constipacao-intestinal-causas-diagnostico-e-tratamento",
+      "date": "2026-09-05"
     }
   ]
 }
